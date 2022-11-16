@@ -1,0 +1,40 @@
+.navigation{
+    margin-top: 25px;
+    margin-left: 100px;
+    font-style: verdana;
+    text-align: center;
+    line-height: 21px;    
+
+}
+ul{
+    display: block;
+    background-image:url("menu2.jpg") ;
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    list-style-type: none;
+    float: left;
+    display: block;
+    float: left  ;
+    text-underline-position: none;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5px;
+    border-color: #999;
+}
+li :hover{
+    background-image:url("menu1.jpg") ;
+    background-repeat: repeat-x;
+    display: block;
+    width: 150px;
+    border: solid;
+    border-color: #09c;
+    border-width: 1px;
+    float: left;
+}
+.active{
+    color: white;
+    background-image:url("menu1.jpg") ;
+    border-color: #09c;
+}
